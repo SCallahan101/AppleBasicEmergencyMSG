@@ -43,4 +43,40 @@
         align-content: center;
         justify-content: center;
     }
+    .numPad div{
+        text-align: center;
+        border: 1px solid white;
+        width: 85px;
+        height: 85px;
+        margin: 10px;
+        border-radius: 50px;
+    }
+    .numButton p:nth-child(1){
+        font-size: 20px;
+        margin: 10px 0px 0px;
+    }
+    .numButton p:nth-child(2){
+        margin: 10px 0px 0px;
+    }
+    .directions{
+        position: relative;
+        width: 85%;
+        border: 1px solid red;
+        margin: 0 auto;
+    }
+    .directions p{
+        display: inline-block;
+        margin: 10px 0px;
+        width: 49%;
+        /* border: 1px solid; */
+    }
+    .directionPathway{
+
+    }
+    .emergyButton{
+        
+    }
+    .cancelButton{
+        text-align: right;
+    }
 }
