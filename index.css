@@ -84,4 +84,22 @@
     #cancelButton{
         text-align: right;
     }
+    /* FirstStepPage */
+    #categoriesContainer{
+        width: 100%;
+        display: grid;
+    }
+
+    .emergyCategoryCall{
+        width: 95%;
+        margin: 10px auto;
+        text-align: center;
+        background: none;
+        border: 1px solid white;
+        color: white;
+    }
+    .emergyCategoryCall a{
+        background: none;
+        color: white;
+    }
 }
