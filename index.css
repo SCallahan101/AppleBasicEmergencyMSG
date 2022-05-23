@@ -64,19 +64,24 @@
         border: 1px solid red;
         margin: 0 auto;
     }
-    .directions p{
+    .directions button{
         display: inline-block;
         margin: 10px 0px;
         width: 49%;
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
         /* border: 1px solid; */
     }
-    .directionPathway{
-
+    .directionPathway a{
+        text-decoration: none;
+        color: white;
     }
-    .emergyButton{
-        
+    #emergyButton{
+        text-align: left;
     }
-    .cancelButton{
+    #cancelButton{
         text-align: right;
     }
 }
