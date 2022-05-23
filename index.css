@@ -101,5 +101,6 @@
     .emergyCategoryCall a{
         background: none;
         color: white;
+        text-decoration: none;
     }
 }

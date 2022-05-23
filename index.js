@@ -10,3 +10,14 @@ function initiateEmergency(){
     console.log("It works: the emergency call has initiate!");
 } 
 // initiateEmergency();
+
+function firstStep(){
+    // const w = window.open("");
+    const x = document.getElementById("containter");
+    x.innerHTML = `<h1>testing first step</h1>
+    <div id="categoriesContainer">
+        <button class="emergyCategoryCall"><a href="mentalHealth/">Mental-Health</a></button>
+        <button class="emergyCategoryCall"><a href="nonEmergency/">Non-Emergency</a></button>
+        <button class="emergyCategoryCall"><a href="emergency/">Emergency</a></button>
+    </div><p>and Cancel</p>`;
+}
