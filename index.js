@@ -1,3 +1,15 @@
+function firstStep(){
+    // const w = window.open("");
+    const x = document.getElementById("containter");
+    x.innerHTML = `<h1>testing first step</h1>
+    <div id="categoriesContainer" class="subContainer">
+        <button class="emergyCategoryCall">Mental-Health</button>
+        <button class="emergyCategoryCall">Non-Emergency</button>
+        <button class="emergyCategoryCall" onclick="initiateEmergency();">Emergency</button>
+    </div><p>and Cancel</p>`;
+}
+
+// EMERGENCY PROCESS
 // let whichData = document.getElementById("emergyButton").addEventListener("click", initiateEmergency);
 
 function initiateEmergency(){
@@ -7,17 +19,18 @@ function initiateEmergency(){
     // } else{
     //     console.log("Still need to fix somewhere...");
     // }
+    const x = document.getElementById("containter");
+    x.innerHTML = `<h1>Emergency first step</h1>
+    <div id="stageOfEmergency" class="subContainer">
+        <button type="button" class="natureOfEmergency">Someone's hurt</button>
+        <button type="button" class="natureOfEmergency">I'm injured</button>
+        <button type="button" class="natureOfEmergency">Shooting situation</button>
+        <button type="button" class="natureOfEmergency">Vehicle Accident</button>
+    </div>`;
     console.log("It works: the emergency call has initiate!");
 } 
 // initiateEmergency();
 
-function firstStep(){
-    // const w = window.open("");
-    const x = document.getElementById("containter");
-    x.innerHTML = `<h1>testing first step</h1>
-    <div id="categoriesContainer">
-        <button class="emergyCategoryCall"><a href="mentalHealth/">Mental-Health</a></button>
-        <button class="emergyCategoryCall"><a href="nonEmergency/">Non-Emergency</a></button>
-        <button class="emergyCategoryCall"><a href="emergency/">Emergency</a></button>
-    </div><p>and Cancel</p>`;
-}
+// NON-EMERGENCY PROCESS
+
+// MENTAL HEALTH PROCESS
