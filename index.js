@@ -9,6 +9,11 @@ function firstStep(){
     </div><p>and Cancel</p>`;
 }
 
+    let infoPackage = [];
+
+
+
+
 // EMERGENCY PROCESS
 // let whichData = document.getElementById("emergyButton").addEventListener("click", initiateEmergency);
 
@@ -22,14 +27,18 @@ function initiateEmergency(){
     const x = document.getElementById("containter");
     x.innerHTML = `<h1>Emergency first step</h1>
     <div id="stageOfEmergency" class="subContainer">
-        <button type="button" class="natureOfEmergency">Someone's hurt</button>
-        <button type="button" class="natureOfEmergency">I'm injured</button>
-        <button type="button" class="natureOfEmergency">Shooting situation</button>
-        <button type="button" class="natureOfEmergency">Report a Fire</button>
-        <button type="button" class="natureOfEmergency">Crime in Progress</button>
+        <button type="button" class="natureOfEmergency" value="someone's hurt" onclick="testTest(this)">Someone's hurt</button>
+        <button type="button" class="natureOfEmergency" value="I am injured" onclick="testTest(this)">I'm injured</button>
+        <button type="button" class="natureOfEmergency" value="Shooting situation" onclick="testTest(this)">Shooting situation</button>
+        <button type="button" class="natureOfEmergency" value="Report a fire" onclick="testTest(this)">Report a Fire</button>
+        <button type="button" class="natureOfEmergency" value="Report a crime in progress" onclick="testTest(this)">Crime in Progress</button>
     </div>`;
     console.log("It works: the emergency call has initiate!");
+
 } 
+function testTest(theValue){
+    console.log("Did value retrieve works: " + theValue.value);
+}
 // initiateEmergency();
 
 // NON-EMERGENCY PROCESS
