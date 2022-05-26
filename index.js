@@ -38,6 +38,10 @@ function initiateEmergency(){
 } 
 function testTest(theValue){
     console.log("Did value retrieve works: " + theValue.value);
+    let selectedInfo = theValue.value;
+    infoPackage.push(selectedInfo);
+    console.log("The current array with: " + infoPackage);
+    // infoPackage = [];
 }
 // initiateEmergency();
 
