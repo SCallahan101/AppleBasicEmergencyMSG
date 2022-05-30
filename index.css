@@ -7,6 +7,23 @@
     background-color: black;
 }
 @media only screen and (max-width: 600px){
+    #initialModal{
+        /* background-color: white;
+        color: black; */
+        width: 100%;
+        position: relative;
+    }
+    #initialModal form{
+        text-align: center;
+        width: 90%;
+        margin: 200px auto 0px;
+        padding: 20px 5px;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        background-color: white;
+        color: black;
+    }
     #messageSign{
         visibility: hidden;
     }
